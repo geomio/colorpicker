@@ -9,18 +9,73 @@
 </head>
 <body>
   <div class="container">
-    <div class="row" id="pagetop">
-      <h1>Page header welcome</h1>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <h1>Adress saver</h1>
+          <p>
+            
+            Fill out info to the left then click the button below.
+
+            <hr>
+
+            Then on the right when your data is condensed the button on right will save a text file for reference.
+
+            <hr>
+
+            Please select date to add date to final output.
+
+            <hr>
+
+            Do not leave spaces blank write n/a if not applicable.</p>
+
+        </div>
+      </div>
     </div>
-    <div class="row" id="pagemid">
-      <h3>middle holder</h3>
-      <ul>
-        <li>stuf1</li>
-        <li>stuff2</li>
-      </ul>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input id="name" class="form-control" type="text">
+          <label for="steet">Street address:</label>
+          <input id="street" class="form-control" type="text">
+          <label for="city">City or town:</label>
+          <input id="city" class="form-control" type="text">
+          <label for="state">State or Providence:</label>
+          <input id="state" class="form-control" type="text">
+          <label for="country">Country:</label>
+          <input id="country" class="form-control" type="text">
+          <label for="phone">Phone number:</label>
+          <input id="phone" class="form-control" type="text">
+          <label for="email">Email Address:</label>
+          <input id="email" class="form-control" type="text">
+          <label for="birthday">Birth Date:</label>
+          <input id="birthday" class="form-control" type="text">
+          <label for="appo">Appointment:</label>
+          <input id="appo" class="form-control" type="text">  
+      </form>
+      <button type="submit" class="btn" id=but1>Click to add</button>
     </div>
-    <div class="row" id="pagebottom">
-      <h2>another item holder</h2>
+      </div>
+      <div class="col-lg-6">
+        <div class="well">
+          <p>Here will hold the text that is inputed ect</p>
+          <button type="submit" class="btn" id=but2>Save text file</button>
+        </div>
+        <div class="well">
+          <h1>calendar</h1>
+        </div>
+        <div class="well">
+          <div class="form-group">
+            <label for="calandar">Dates:</label>
+            <input id="calandar" class="form-control" type="date">
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Keep it organized.</h1>
+      </div>
     </div>
   </div>
 </body>
