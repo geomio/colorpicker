@@ -12,7 +12,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="jumbotron">
-          <h1>Adress saver</h1>
+          <h1>Address saver</h1>
           <p>
             
             Fill out info to the left then click the button below.
@@ -34,32 +34,73 @@
     </div>
     <div class="row">
       <div class="col-lg-6">
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input id="name" class="form-control" type="text">
-          <label for="steet">Street address:</label>
-          <input id="street" class="form-control" type="text">
-          <label for="city">City or town:</label>
-          <input id="city" class="form-control" type="text">
-          <label for="state">State or Providence:</label>
-          <input id="state" class="form-control" type="text">
-          <label for="country">Country:</label>
-          <input id="country" class="form-control" type="text">
-          <label for="phone">Phone number:</label>
-          <input id="phone" class="form-control" type="text">
-          <label for="email">Email Address:</label>
-          <input id="email" class="form-control" type="text">
-          <label for="birthday">Birth Date:</label>
-          <input id="birthday" class="form-control" type="text">
-          <label for="appo">Appointment:</label>
-          <input id="appo" class="form-control" type="text">  
-      </form>
-      <button type="submit" class="btn" id=but1>Click to add</button>
-    </div>
+        <div>
+          <form id="formOne">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="street">Street Address</label>
+              <input id="street" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="city">City or Town</label>
+              <input id="city" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="state">State or Prov</label>
+              <input id="state" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="country">Country Or Other</label>
+              <input id="country" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone number</label>
+              <input id="phone" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="birthday">Birthday</label>
+              <input id="birthday" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="appo">Appointment</label>
+              <input id="appo" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Create address</button>
+          </form>
+        </div>
       </div>
       <div class="col-lg-6">
         <div class="well">
-          <p>Here will hold the text that is inputed ect</p>
+          <div class="textbox1">
+            <ul>
+              <h2>Your address.</h2>
+              <li>Name</li>
+              <li><p><span class="name"></span></p></li>
+              <li>Address</li>
+              <li><p><span class="street"></span></p></li>
+              <li>City</li>
+              <li><p><span class="city"></span></p></li>
+              <li>State or Prov</li>
+              <li><p><span class="state"></span></p></li>
+              <li>Country</li>
+              <li><p><span class="country"></span></p></li>
+              <li>Number</li>
+              <li><p><span class="phone"></span></p></li>
+              <li>Email</li>
+              <li><p><span class="email"></span></p></li>
+              <li>Birthday</li>
+              <li><p><span class="birthday"></span></p></li>
+              <li>appointment</li>
+              <li><p><span class="appo"></span></p></li>
+            </ul>
+          </div>
           <button type="submit" class="btn" id=but2>Save text file</button>
         </div>
         <div class="well">
