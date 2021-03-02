@@ -6,10 +6,6 @@ $(document).ready(function() {
     const stateInput = $("input#state").val();
     const zipInput = $("input#zip").val();
     const countryInput = $("input#country").val();
-    const phoneInput = $("input#phone").val();
-    const emailInput = $("input#email").val();
-    
-    const appoInput = $("input#appo").val();
 
     $(".name").text(nameInput);
     $(".street").text(streetInput);
@@ -17,9 +13,7 @@ $(document).ready(function() {
     $(".state").text(stateInput);
     $(".zip").text(zipInput);
     $(".country").text(countryInput);
-    $(".phone").text(phoneInput);
-    $(".email").text(emailInput);
-    $(".appo").text(appoInput);
+    $("#hideme").show();
   
     event.preventDefault();
   });
