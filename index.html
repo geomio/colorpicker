@@ -12,19 +12,12 @@
     <div class="row">
       <div class="col-md-12">
         <div class="jumbotron">
-          <h1>Address saver</h1>
+          <h1>Address Tag maker</h1>
           <p>
             
             Fill out info to the left then click the button below.
 
             <hr>
-
-            Then on the right when your data is condensed the button on right will save a text file for reference.
-
-            <hr>
-
-            Please select date to add date to final output.
-
             <hr>
 
             Do not leave spaces blank write n/a if not applicable.</p>
@@ -53,6 +46,10 @@
               <input id="state" class="form-control" type="text">
             </div>
             <div class="form-group">
+              <label for="zip">Zip code</label>
+              <input id="zip" class="form-control" type="text">
+            </div>
+            <div class="form-group">
               <label for="country">Country Or Other</label>
               <input id="country" class="form-control" type="text">
             </div>
@@ -65,10 +62,6 @@
               <input id="email" class="form-control" type="text">
             </div>
             <div class="form-group">
-              <label for="birthday">Birthday</label>
-              <input id="birthday" class="form-control" type="text">
-            </div>
-            <div class="form-group">
               <label for="appo">Appointment</label>
               <input id="appo" class="form-control" type="text">
             </div>
@@ -79,38 +72,29 @@
       <div class="col-lg-6">
         <div class="well">
           <div class="textbox1">
-            <ul>
-              <h2>Your address.</h2>
-              <li>Name</li>
+            <ul class="listStyle">
+              <h2 id="listHeader">Address tag.</h2>
+              <li class="listItems">Name</li>
               <li><p><span class="name"></span></p></li>
-              <li>Address</li>
+              <li class="listItems">Address</li>
               <li><p><span class="street"></span></p></li>
-              <li>City</li>
+              <li class="listItems">City</li>
               <li><p><span class="city"></span></p></li>
-              <li>State or Prov</li>
+              <li class="listItems">State or Prov</li>
               <li><p><span class="state"></span></p></li>
-              <li>Country</li>
+              <li class="listItems">Zip Code</li>
+              <li><p><span class="zip"></span></p></li>
+              <li class="listItems">Country</li>
               <li><p><span class="country"></span></p></li>
-              <li>Number</li>
+              <li class="listItems">Number</li>
               <li><p><span class="phone"></span></p></li>
-              <li>Email</li>
+              <li class="listItems">Email</li>
               <li><p><span class="email"></span></p></li>
-              <li>Birthday</li>
-              <li><p><span class="birthday"></span></p></li>
-              <li>appointment</li>
+              <li class="listItems">appointment</li>
               <li><p><span class="appo"></span></p></li>
             </ul>
           </div>
-          <button type="submit" class="btn" id=but2>Save text file</button>
         </div>
-        <div class="well">
-          <h1>calendar</h1>
-        </div>
-        <div class="well">
-          <div class="form-group">
-            <label for="calandar">Dates:</label>
-            <input id="calandar" class="form-control" type="date">
-          </div>
       </div>
     </div>
     <div class="row">
